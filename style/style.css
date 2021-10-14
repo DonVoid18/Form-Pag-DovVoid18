@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css del form */
+.container-form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at 36.94% 72.63%, #625036 0, #36322d 25%, #071522 50%, #000019 75%, #00000e 100%);
+}
+.container-form-main{
+    height: 600px;
+    display: flex;
+}
+.container-form-image img{
+    width: 400px;
+    height: 600px;
+}
+.container-form-information{
+    padding: 20px 40px;
+    background-color: #071622;
+    color: white;
+}
+
+/* css de los input */
+
+.container-form-date-per{
+    margin: 25px 0;
+    width: 400px;
+}
+.container-form-date-per input{
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px 5px;
+    outline: none;
+    background: #bec7ce49;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container-form-date-per input::placeholder{
+    color: rgba(255, 255, 255, 0.336);
+}
+.container-input-duo{
+    display: flex;
+    justify-content: space-between;
+}
+.container-input-name, .container-input-lastname input{
+    width: 199px;
+}
+
+/* css del container checkbox */
+.container-form-terms{
+    width: 350px;
+}
+
+
+/* css del boton */
+.container-form-button-send{
+    padding: 25px 0;
+}
+.container-form-button-send button{
+    width: 200px;
+    height: 40px;
+    background: #af0320;
+    opacity: 0.5;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-weight: 700;
+}
+.container-form-button-send button:hover{
+    opacity: 1;
+}
+
+/* css de las redes sociales */
+.container-form-redes-sociales{
+    width: 400px;
+    margin: 25px 0;
+}
+.form-red-social{
+    padding: 4px 6px;
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+}
+.fab{
+    margin-left: 4px;
+}
+.fa-facebook{
+    color: #047bf4;
+}
+.fa-google{
+    color: red;
+}
